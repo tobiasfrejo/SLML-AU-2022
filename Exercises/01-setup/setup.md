@@ -33,9 +33,9 @@ Open test.ipynb and make sure that every cell can be executed.
 
 In Windows, use Powershell
 ```
-python -m venv slml
-.\slml\Scripts\activate
-ipython kernel install --name "SLML" --user
+python -m venv venv
+.\venv\Scripts\activate
+ipython kernel install --name "SLML-venv" --user
 pip install numpy pandas matplotlib ipywidgets ffmpeg ipython ipykernel
 pip install scikit-learn seaborn scipy
 pip install torch torchvision 
