@@ -27,3 +27,18 @@ Your browser should open with a Jupyter Lab UI (if not, you can use URL provided
 
 Open test.ipynb and make sure that every cell can be executed.
 
+## Use VS Code and Python venv
+
+### Windows
+
+In Windows, use Powershell
+```
+python -m venv slml
+.\slml\Scripts\activate
+ipython kernel install --name "SLML" --user
+pip install numpy pandas matplotlib ipywidgets ffmpeg ipython ipykernel
+pip install scikit-learn seaborn scipy
+pip install torch torchvision 
+```
+
+Then open the notebook in VS Code and in the upper right corner change the kernel to the one named SLML. This should only be necessary the first time for each notebook.
