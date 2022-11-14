@@ -36,9 +36,7 @@ In Windows, use Powershell
 python -m venv venv
 .\venv\Scripts\activate
 ipython kernel install --name "SLML-venv" --user
-pip install numpy pandas matplotlib ipywidgets ffmpeg ipython ipykernel
-pip install scikit-learn seaborn scipy
-pip install torch torchvision 
+pip install numpy pandas matplotlib ipywidgets ffmpeg ipython ipykernel scikit-learn seaborn scipy torch torchvision 
 ```
 
 Then open the notebook in VS Code and in the upper right corner change the kernel to the one named SLML. This should only be necessary the first time for each notebook.
